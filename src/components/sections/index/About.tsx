@@ -77,7 +77,7 @@ export default function About() {
             title="там я был, там пиво пил"
             description=""
             tech={otherTech}
-            direction="bottom"
+            direction="left"
             span={presence && presence.activities.length > 0 ? 1 : 2}
             delay={0.1}
             gradient="bg-gradient-to-tr"
@@ -86,7 +86,7 @@ export default function About() {
             title="друзяки))"
             description=""
             tech={druzya}
-            direction="bottom"
+            direction="right"
             span={presence && presence.activities.length > 0 ? 1 : 2}
             delay={0.1}
             gradient="bg-gradient-to-tr"
