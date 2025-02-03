@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <footer className="max-w-4xl w-full flex flex-col mx-auto pt-4 pb-2">
-                <p className="text-center font-semibold text-base pt-2 text-black">
+                <p className="text-center font-semibold text-base pt-2">
                     dexx bio - Made with NextJS, TailwindCSS, and ❤ by aiden
                 </p>
                 <p className="text-center font-medium brightness-75 text-base text-black">
