@@ -46,7 +46,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
               url="https://discord.com/users/999589862158114848"
               icon={
                <img
-                  src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/cb2lxl0bnr8yaaz81k.png"
+                  src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/gppopindunjw4x5v2q.png"
                   alt=""
                   className="w-7 h-7 rounded-lg" // Добавил rounded-lg для скругления углов
                />   
