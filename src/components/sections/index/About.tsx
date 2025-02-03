@@ -105,7 +105,7 @@ export default function About() {
             description="тут показан человек, который будет игнорить вас часами и днями, она заебала всех просто"
             tech={she}
             direction="bottom"
-            span={presence && presence.activities.length > 0 ? 1 : 2}
+            span={1}
             delay={0.1}
             gradient="bg-gradient-to-tr"
           />
