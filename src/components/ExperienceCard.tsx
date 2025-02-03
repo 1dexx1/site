@@ -36,7 +36,7 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                             {url &&
                                 <LinkButton label="Visit Website" link={url} width="w-1/2" />
                             }
-                            <Button label="View More" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
+                            <Button label="Посмотреть больше" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
                         </div>
                     </div>
                     <Modal open={modalOpen} setOpen={setModalOpen}>
@@ -55,11 +55,11 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                                     }
                                 </div>
                                 <div className="flex flex-col mt-2">
-                                    <h2 className="sm:text-2xl text-xl font-semibold">My Role</h2>
+                                    <h2 className="sm:text-2xl text-xl font-semibold">моя роль</h2>
                                     <p className="sm:text-lg text-base">{myRole}</p>
                                 </div>
                                 <div className="flex flex-col mt-2">
-                                    <h2 className="sm:text-2xl text-xl font-semibold">Timeline</h2>
+                                    <h2 className="sm:text-2xl text-xl font-semibold">таймлайн</h2>
                                     <p className="sm:text-lg text-base">{timeline}</p>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                             <div className="w-0.5 h-auto bg-accent rounded-lg lg:block hidden" />
                             <div className="flex flex-col">
                                 <h2 className="sm:text-2xl text-xl font-semibold">
-                                    Overview
+                                    описание
                                 </h2>
                                 <div className="max-h-[16.5rem] overflow-y-scroll bg-neutral-800 border-1 border-accent rounded-lg p-2">
                                     {fullDescription.map((desc, i) => (
