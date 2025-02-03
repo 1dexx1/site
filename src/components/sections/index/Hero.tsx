@@ -39,6 +39,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                   alt=""
                   className="w-7 h-7 rounded-lg" // Добавил rounded-lg для скругления углов
                />
+              }
               delay={0.3}
             />
             <SocialIcon
@@ -48,7 +49,8 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                   src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/cb2lxl0bnr8yaaz81k.png"
                   alt=""
                   className="w-7 h-7 rounded-lg" // Добавил rounded-lg для скругления углов
-               />              
+               />   
+              }
               delay={0.9}
             />
             <SocialIcon
