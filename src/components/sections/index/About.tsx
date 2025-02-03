@@ -80,7 +80,7 @@ export default function About() {
            description=""
            tech={otherTech}
            direction="left"
-           span={1}
+           span={2}
            delay={0.15}
            gradient="bg-gradient-to-br"
           />
@@ -89,7 +89,7 @@ export default function About() {
             description=""
             tech={druzya}
             direction="right"
-            span={1}
+            span={2}
             delay={0.2}
             gradient="bg-gradient-to-bl"
           />
