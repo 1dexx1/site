@@ -24,13 +24,6 @@ export default function Home() {
     return (
         <>
             <main className='flex h-screen flex-col justify-center overflow-x-hidden'>
-                <GridPattern
-                    width={50}
-                    height={50}
-                    x={-1}
-                    y={-1}
-                    className='z-[-5]'
-                />
                 <div className='max-w-5xl w-full mx-auto'>
                     <h1 className={`${pageLoad ? 'animate-fade-in-top' : 'opacity-0'} font-bold sm:text-6xl text-4xl text-center`}>
                         Welcome back, Aiden 👋
