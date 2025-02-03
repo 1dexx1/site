@@ -7,8 +7,8 @@ import Button from "@/components/Button";
 import LinkButton from "@/components/LinkButton";
 import Divider from "@/components/Divider";
 
-// Компонент kurwaCard
-export default function kurwaCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string }) {
+// Компонент KurwaCard
+export default function KurwaCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string }) {
     const [modalOpen, setModalOpen] = useState(false);
     return (
         <>
@@ -72,10 +72,10 @@ export default function kurwaCard({ url, title, fullDescription, cardDescription
     );
 }
 
-// Использование kurwaCard вместо футера
-export function kurwa() {
+// Использование KurwaCard вместо футера
+export function Footer() {
     return (
-        <kurwaCard
+        <KurwaCard
             url="https://out.so"
             title="Out.so"
             fullDescription={[
