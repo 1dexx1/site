@@ -8,8 +8,8 @@ export default function Projects() {
   const [showAll, setShowAll] = useState(true);
 
   return (
-    <>   
-        <section id='projects' className="max-w-4xl w-full flex flex-col mx-auto">
+    <>
+      <section id='projects' className="max-w-4xl w-full flex flex-col mx-auto">
         <motion.h1
           className="text-center font-bold text-5xl mt-16 -mb-2"
           initial={{ transform: 'translateY(-30px)', opacity: 0 }}
@@ -17,7 +17,7 @@ export default function Projects() {
           transition={{ duration: 0.5, delay: 0.1, ease: [0.39, 0.21, 0.12, 0.96], }}
           viewport={{ amount: 0.1, once: true }}
         >
-          другое
+          другие проекты
         </motion.h1>
         <ul className={`${showAll ? '' : 'max-h-[100rem]'} grid md:grid-cols-2 pt-6 pb-1 grid-cols-1 gap-4 overflow-hidden`}>
           {!showAll &&
@@ -40,7 +40,9 @@ export default function Projects() {
             timeline="янв. 2025 - настоящее время"
             delay={0.1}
             gradient="bg-gradient-to-br"
-          />
+        />
+        </ul>
+      </section>
     </>
   );
 }
