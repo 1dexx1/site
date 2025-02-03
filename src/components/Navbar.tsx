@@ -7,7 +7,7 @@ export default function Navbar() {
         window.scrollTo({ 
             top: 0,
             behavior: 'smooth'
-        }
+        }); // Здесь была добавлена закрывающая скобка
     };
 
     const handleClickScroll2 = () => {
