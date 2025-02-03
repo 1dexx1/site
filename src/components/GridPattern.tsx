@@ -17,5 +17,17 @@ interface GridPatternProps {
 }
 
 export function GridPattern({
+  width = 40,
+  height = 40,
+  x = -1,
+  y = -1,
+  strokeDasharray = 0,
+  squares,
+  className,
+  ...props
+}: GridPatternProps) {
+  const id = useId();
 
-})
+  return (
+  );
+}
