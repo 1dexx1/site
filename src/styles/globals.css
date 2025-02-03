@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,10 +6,7 @@
 
 body {
   background-color: #0a0a0a;
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-family: 'League Spartan', sans-serif;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/3tkpks28q3x48bo3jt.jpg');
   background-size: cover;
