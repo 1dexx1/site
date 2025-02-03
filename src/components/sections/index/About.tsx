@@ -83,7 +83,7 @@ export default function About() {
             gradient="bg-gradient-to-tl"
           />
           <AboutCard
-           title={<span style={{ fontSize: '12px' }}>там я был, там пиво пил</span>}
+           title="че то знаю"
            description=""
            tech={otherTech}
            direction="left"
