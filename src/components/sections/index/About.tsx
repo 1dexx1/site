@@ -69,7 +69,7 @@ export default function About() {
         <ul className="grid grid-cols-2 gap-4 mt-4">
           <AboutCard
             title="ну в общем"
-            description="ну ку, мне 13 лет, я делаю что-то на GLua, пробовал просто луа, и luau, живу в украине, ну и всё"
+            description="мне 13 лет, я делаю что-то на GLua, пробовал просто луа, и luau, живу в украине, ну и всё"
             direction="top"
             span={2}
             delay={0.1}
