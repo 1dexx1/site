@@ -7,7 +7,7 @@ export default function Footer() {
                 <p className="text-center font-semibold text-base pt-2">
                     dexx bio - Made with NextJS, TailwindCSS, and ❤ by aiden
                 </p>
-                <p className="text-center font-medium brightness-75 text-base text-black">
+                <p className="text-center font-medium brightness-75 text-base">
                     Last updated: Feb 3, 2025
                 </p>
             </footer>
