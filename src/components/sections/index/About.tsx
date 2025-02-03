@@ -90,7 +90,7 @@ export default function About() {
           <AboutCard
             title="ш-общительная"
             description="тут показан человек, который будет игнорить вас часами и днями, она заебала всех просто"
-            tech{she}
+            tech={she}
             direction={bottom}
             span={2}
             delay={0.1}
