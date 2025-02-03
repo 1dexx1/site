@@ -16,7 +16,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
           ref={descRef}
         >
           <h1 className="font-bold lg:text-5xl md:text-4xl sm:text-3xl text-2xl">
-          куку епта, я dexx<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="font-bold text-lg brightness-50 italic sm:inline flex"> aka publicstaticvoidmain </span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
+          ку, я dexx<span className="sm:hidden inline-block animate-wave ml-2">👋</span><span className="font-bold text-lg brightness-50 italic sm:inline flex"> aka publicstaticvoidmain </span><span className="sm:inline-block hidden animate-wave ml-2">👋</span>
           </h1>
             <p className="font-semibold lg:text-3xl md:text-2xl sm:text-xl text-lg mt-2">
             {inView &&
