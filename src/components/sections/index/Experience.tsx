@@ -37,10 +37,10 @@ export default function Experience() {
                     <ExperienceCard
                         title="Bakery Madness"
                         fullDescription={[
-                            "Bakery Madness - это мод на Pizza Tower от моего хорошего знакомого"
+                            "Bakery Madness - это мод на Pizza Tower от моего хорошего знакомого, хоть он и делает её почти 3 года, но я верю, что он выпустит этот калл© asap (PLACEHOLDER IMAGES, TO BE CHANGED!"
                         ]}
                         cardImage="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/fxlmovvr1b4ak2b.png"
-                        cardDescription="Bakery Madness - это мод на Pizza Tower от моего хорошего знакомого, хоть он и делает её почти 3 года, но я верю, что он выпустит этот калл© asap (PLACEHOLDER IMAGES, TO BE CHANGED!"
+                        cardDescription="Bakery Madness - это мод на Pizza Tower от моего хорошего знакомого"
                         media={[
                             "https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/fxlmovvr1b4ak2b.png"
                         ]}
