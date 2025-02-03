@@ -8,6 +8,10 @@ body {
   background-color: #0a0a0a;
   font-family: 'League Spartan', sans-serif;
   color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/3tkpks28q3x48bo3jt.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .media-carousel {
