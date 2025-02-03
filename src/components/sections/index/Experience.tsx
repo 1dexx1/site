@@ -23,10 +23,10 @@ export default function Experience() {
                         fullDescription={[
                             "Bakery Madness - это мод на Pizza Tower от моего хорошего знакомого, хоть он и делает её почти 3 года, но я верю, что он выпустит этот калл© asap (PLACEHOLDER IMAGES, TO BE CHANGED!(ахаахха типо пуро из ченжеда хахаххахаха какой же я смешной))"
                         ]}
-                        cardImage="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/6w559xixwtcbqnfh8g.jpg"
+                        cardImage="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/wl926jkl99qp4to4a9.jpg"
                         cardDescription="Bakery Madness - это мод на Pizza Tower от моего хорошего знакомого"
                         media={[
-                            "https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/wl926jkl99qp4to4a9.jpg"
+                            "https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/6w559xixwtcbqnfh8g.jpg"
                         ]}
                         myRole="бета тестер"
                         timeline="2022 - ???"
