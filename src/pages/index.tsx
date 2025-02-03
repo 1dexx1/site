@@ -19,13 +19,6 @@ export default function Home() {
     <>
       <Navbar />
       <main className="relative min-h-screen overflow-x-hidden px-6">
-        <GridPattern
-          width={50}
-          height={50}
-          x={-1}
-          y={-1}
-          className='z-[-5]'
-        />
         <Hero inView={inView} descRef={ref} />
         <About />
         <Experience />
