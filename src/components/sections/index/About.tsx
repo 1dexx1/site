@@ -91,7 +91,7 @@ export default function About() {
             title="ш-общительная"
             description="тут показан человек, который будет игнорить вас часами и днями, она заебала всех просто"
             tech={she}
-            direction={bottom}
+            direction="bottom"
             span={2}
             delay={0.1}
             gradient="bg-gradient-to-tl"
