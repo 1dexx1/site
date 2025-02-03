@@ -91,15 +91,6 @@ export default function About() {
             delay={0.1}
             gradient="bg-gradient-to-tr"
           />
-          <AboutCard
-            title="ш-общительная"
-            description="тут показан человек, который будет игнорить вас часами и днями, она заебала всех просто"
-            tech={she}
-            direction="bottom"
-            span={2}
-            delay={0.1}
-            gradient="bg-gradient-to-tl"
-          />
             <AboutCard
             title="друзяки))"
             description=""
@@ -108,6 +99,15 @@ export default function About() {
             span={presence && presence.activities.length > 0 ? 1 : 2}
             delay={0.1}
             gradient="bg-gradient-to-tr"
+          />
+          <AboutCard
+            title="ш-общительная"
+            description="тут показан человек, который будет игнорить вас часами и днями, она заебала всех просто"
+            tech={she}
+            direction="bottom"
+            span={2}
+            delay={0.1}
+            gradient="bg-gradient-to-tl"
           />
         </ul>
       </section>
