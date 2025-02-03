@@ -87,27 +87,27 @@ export default function About() {
             description=""
             tech={otherTech}
             direction="left"
-            span={presence && presence.activities.length > 0 ? 1 : 2}
-            delay={0.1}
-            gradient="bg-gradient-to-tr"
+            span={1}
+            delay={0.15}
+            gradient="bg-gradient-to-br"
           />
-            <AboutCard
+          <AboutCard
             title="друзяки))"
             description=""
             tech={druzya}
             direction="right"
-            span={presence && presence.activities.length > 0 ? 1 : 2}
-            delay={0.1}
-            gradient="bg-gradient-to-tr"
+            span={1}
+            delay={0.2}
+            gradient="bg-gradient-to-bl"
           />
           <AboutCard
-            title="ш-общительная"
+            title="ше абщительная"
             description="тут показан человек, который будет игнорить вас часами и днями, она заебала всех просто"
             tech={she}
             direction="bottom"
-            span={2}
+            span={presence && presence.activities.length > 0 ? 1 : 2}
             delay={0.1}
-            gradient="bg-gradient-to-tl"
+            gradient="bg-gradient-to-tr"
           />
         </ul>
       </section>
