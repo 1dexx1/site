@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
 
     const handleClickScroll = () => {
-        const element = document.getElementById('about');
+        const element = document.getElementById('hero');
         if (element) {
             const elementPosition = element.getBoundingClientRect().top + window.scrollY;
             window.scrollTo({ 
