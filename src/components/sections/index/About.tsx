@@ -83,13 +83,13 @@ export default function About() {
             gradient="bg-gradient-to-tl"
           />
           <AboutCard
-            title="там я был, там пиво пил"
-            description=""
-            tech={otherTech}
-            direction="left"
-            span={1}
-            delay={0.15}
-            gradient="bg-gradient-to-br"
+           title={<span style={{ fontSize: '12px' }}>там я был, там пиво пил</span>}
+           description=""
+           tech={otherTech}
+           direction="left"
+           span={1}
+           delay={0.15}
+           gradient="bg-gradient-to-br"
           />
           <AboutCard
             title="друзяки))"
