@@ -44,8 +44,8 @@ export default function Experience() {
                         media={[
                             "https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/fxlmovvr1b4ak2b.png"
                         ]}
-                        myRole="глав. разраб"
-                        timeline="янв. 2025 - настоящее время"
+                        myRole="бета тестер"
+                        timeline="2022 - настоящее время"
                         delay={0.1}
                         gradient="bg-gradient-to-br"
                     />
