@@ -42,10 +42,16 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
               delay={0.9}
             />
             <SocialIcon
-              url="https://boosty.to/1dexx1"
-              icon={<svg viewBox="0 0 24 24" className="w-7 h-7 fill-neutral-400" shapeRendering="crispEdges"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22.5C6.201 22.5 1.5 17.799 1.5 12S6.201 1.5 12 1.5 22.5 6.201 22.5 12 17.799 22.5 12 22.5zm4.5-6.75h-3v-3h3v3zm-6-3h-3v3h3v-3zm6-6h-3v3h3v-3zm-6 0h-3v3h3v-3z"/></svg>}
-              delay={1.0}
-            />
+             url="https://boosty.to/1dexx1"
+             icon={
+               <img
+                  src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/8681ep4r4c7whd56ps.jpg"
+                  alt="Boosty Icon"
+                  className="w-7 h-7 rounded-lg" // Добавил rounded-lg для скругления углов
+               />
+               }
+             delay={1.0}
+             />
           </ul>
         </motion.div>
       </section>
