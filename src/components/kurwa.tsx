@@ -7,9 +7,8 @@ import Button from "@/components/Button";
 import LinkButton from "@/components/LinkButton";
 import Divider from "@/components/Divider";
 
-export default function ExperienceCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient, myRole, timeline }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string, myRole: string, timeline: string }) {
+export default function kurwaCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string }) {
     const [modalOpen, setModalOpen] = useState(false);
-
     return (
         <>
             <motion.li
@@ -23,11 +22,8 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                     <img alt="" draggable={false} className="rounded-lg md:h-[14rem] sm:h-[12rem] h-[10rem] grayscale group-hover:grayscale-0 duration-300" src={cardImage} />
                     <div className="flex flex-col">
                         <h2 className="md:text-left text-center font-semibold text-4xl">
-                            {myRole}
+                            {title}
                         </h2>
-                        <h3 className="md:text-left text-center font-normal text-2xl">
-                            {title} | <span className="brightness-75">{timeline}</span>
-                        </h3>
                         <Divider />
                         <p className="md:text-left text-center text-lg mt-1">
                             {cardDescription}
@@ -44,7 +40,7 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                         <div className="flex lg:flex-row flex-col justify-between mt-6 px-3">
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-2 items-center">
-                                    <h1 className="sm:text-4xl text-3xl font-bold">{title}</h1>
+                                    <h1 className="sm:text-5xl text-4xl font-bold">{title}</h1>
                                     {url &&
                                         <Link href={url} target="_blank" className="bg-middle hover:bg-secondary duration-300 border-1 border-accent p-1.5 rounded-full">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 fill-white" viewBox="0 0 16 16">
@@ -53,14 +49,6 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                                             </svg>
                                         </Link>
                                     }
-                                </div>
-                                <div className="flex flex-col mt-2">
-                                    <h2 className="sm:text-2xl text-xl font-semibold">моя роль</h2>
-                                    <p className="sm:text-lg text-base">{myRole}</p>
-                                </div>
-                                <div className="flex flex-col mt-2">
-                                    <h2 className="sm:text-2xl text-xl font-semibold">таймлайн</h2>
-                                    <p className="sm:text-lg text-base">{timeline}</p>
                                 </div>
                             </div>
                             <div className="w-auto h-0.5 bg-accent rounded-lg lg:hidden block my-2" />
