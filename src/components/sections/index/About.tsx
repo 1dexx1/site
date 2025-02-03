@@ -16,21 +16,6 @@ export default function About() {
   let druzya: Tech[] = [
     { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
     { title: "gtgaster", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/995011306597925055/6820ead54d18dc1ff03bd64915436df6.webp?size=1024" />, link: "" },
-    { title: "tizar18", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/ndq0ivhp6t0wjunorg.jpg" />, link: "" }
-  ]
-
-  let she: Tech[] = [
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" }
-  
   ]
   
   const [presence, setPresence] = useState<Presence | null>(null);
@@ -107,15 +92,6 @@ export default function About() {
             span={1}
             delay={0.2}
             gradient="bg-gradient-to-bl"
-          />
-          <AboutCard
-            title="ше абщительная"
-            description="тут показан человек, который будет игнорить вас часами и днями, она заебала всех просто"
-            tech={she}
-            direction="bottom"
-            span={2}
-            delay={0.1}
-            gradient="bg-gradient-to-tr"
           />
         </ul>
       </section>
