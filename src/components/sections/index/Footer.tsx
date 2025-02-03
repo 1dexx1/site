@@ -8,7 +8,7 @@ export default function Footer() {
                     dexx bio - Сделано "Конторой пидорасов"
                 </p>
                 <p className="text-center font-medium brightness-75 text-base">
-                    Last updated: Feb 3, 2025
+                    последнее обновление - 3 февраля 2025 
                 </p>
             </footer>
         </>
