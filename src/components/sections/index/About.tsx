@@ -18,10 +18,10 @@ export default function About() {
   ]
 
   let she: Tech[] = [
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" }
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" }
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" }
-    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" }
+    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
+    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
+    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
+    { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" },
     { title: "шлюха", icon: <img alt="" draggable={false} className="h-6" src="https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/9wp3qz3b13vz0f3y60.jpg" />, link: "" }
   ]
   
