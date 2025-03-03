@@ -23,8 +23,11 @@ export default function KurwaCard({ url, title, fullDescription, cardDescription
                 <img alt="" draggable={false} className="rounded-lg md:h-[14rem] sm:h-[12rem] h-[10rem] grayscale group-hover:grayscale-0 duration-300" src={cardImage} />
                 <div className="flex flex-col">
                   <h3 className="md:text-left text-center font-normal text-4xl">
-                    {title} | <span className="brightness-75 text-3xl">{timeline}</span>
+                    {title}
                   </h3>
+                  <h2>
+                    <span className="brightness-75">{timeline}</span>
+                  </h2>
                   <h2 className="md:text-left text-center font-semibold text-2xl">
                     {myRole}
                   </h2>

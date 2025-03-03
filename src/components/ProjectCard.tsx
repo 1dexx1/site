@@ -30,7 +30,7 @@ export default function ProjectCard({ url, title, fullDescription, cardDescripti
             {url &&
               <LinkButton label="перейти на сайт" link={url} width="w-1/2" />
             }
-            <Button label="View More" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
+            <Button label="подробнее" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
           </div>
         </div>
         <Modal open={modalOpen} setOpen={setModalOpen}>

@@ -25,9 +25,12 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                         <h2 className="md:text-left text-center font-semibold text-4xl">
                             {myRole}
                         </h2>
-                        <h3 className="md:text-left text-center font-normal text-2xl">
-                            {title} | <span className="brightness-75">{timeline}</span>
-                        </h3>
+                        <h3 className="md:text-left text-center font-normal text-4xl">
+                          {title}
+                         </h3>
+                        <h2>
+                          <span className="brightness-75">{timeline}</span>
+                        </h2>
                         <Divider />
                         <p className="md:text-left text-center text-lg mt-1">
                             {cardDescription}
