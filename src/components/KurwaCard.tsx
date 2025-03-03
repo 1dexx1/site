@@ -7,40 +7,44 @@ import Button from "@/components/Button";
 import LinkButton from "@/components/LinkButton";
 import Divider from "@/components/Divider";
 
-export default function kurwaCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string }) {
+export default function KurwaCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient, myRole, timeline }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string, myRole: string, timeline: string }) {
     const [modalOpen, setModalOpen] = useState(false);
+
     return (
         <>
             <motion.li
-                className="group flex"
-                initial={{ transform: 'translateY(-30px)', opacity: 0 }}
-                whileInView={{ transform: 'translateY(0px)', opacity: 100 }}
-                transition={{ duration: 0.5, delay: delay, ease: [0.39, 0.21, 0.12, 0.96], }}
-                viewport={{ amount: 0.1, once: true }}
+              className="group flex"
+              initial={{ transform: 'translateY(-30px)', opacity: 0 }}
+              whileInView={{ transform: 'translateY(0px)', opacity: 100 }}
+              transition={{ duration: 0.5, delay: delay, ease: [0.39, 0.21, 0.12, 0.96], }}
+              viewport={{ amount: 0.1, once: true }}
             >
-                <div className={`p-4 flex md:flex-row flex-col gap-6 ${gradient} from-primary to-secondary rounded-lg border-1 border-accent shadow-2xl shadow-background items-center`}>
-                    <img alt="" draggable={false} className="rounded-lg md:h-[14rem] sm:h-[12rem] h-[10rem] grayscale group-hover:grayscale-0 duration-300" src={cardImage} />
-                    <div className="flex flex-col">
-                        <h2 className="md:text-left text-center font-semibold text-4xl">
-                            {title}
-                        </h2>
-                        <Divider />
-                        <p className="md:text-left text-center text-lg mt-1">
-                            {cardDescription}
-                        </p>
-                        <div className="flex row gap-4 mt-2">
-                            {url &&
-                                <LinkButton label="Visit Website" link={url} width="w-1/2" />
-                            }
-                            <Button label="Посмотреть больше" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
-                        </div>
-                    </div>
+              <div className={`p-4 flex md:flex-row flex-col gap-6 ${gradient} from-primary to-secondary rounded-lg border-1 border-accent shadow-2xl shadow-background items-center`}>
+                <img alt="" draggable={false} className="rounded-lg md:h-[14rem] sm:h-[12rem] h-[10rem] grayscale group-hover:grayscale-0 duration-300" src={cardImage} />
+                <div className="flex flex-col">
+                  <h3 className="md:text-left text-center font-normal text-4xl">
+                    {title} | <span className="brightness-75 text-3xl">{timeline}</span>
+                  </h3>
+                  <h2 className="md:text-left text-center font-semibold text-2xl">
+                    {myRole}
+                  </h2>
+                  <Divider />
+                  <p className="md:text-left text-center text-lg mt-1">
+                    {cardDescription}
+                  </p>
+                  <div className="flex row gap-4 mt-2">
+                    {url &&
+                      <LinkButton label="перейти на сайт" link={url} width="w-1/2" />
+                    }
+                    <Button label="посмотреть больше" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
+                  </div>
+                </div>
                     <Modal open={modalOpen} setOpen={setModalOpen}>
                         <MediaCarousel media={media} />
                         <div className="flex lg:flex-row flex-col justify-between mt-6 px-3">
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-2 items-center">
-                                    <h1 className="sm:text-5xl text-4xl font-bold">{title}</h1>
+                                    <h1 className="sm:text-4xl text-3xl font-bold">{title}</h1>
                                     {url &&
                                         <Link href={url} target="_blank" className="bg-middle hover:bg-secondary duration-300 border-1 border-accent p-1.5 rounded-full">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 fill-white" viewBox="0 0 16 16">
@@ -49,6 +53,14 @@ export default function kurwaCard({ url, title, fullDescription, cardDescription
                                             </svg>
                                         </Link>
                                     }
+                                </div>
+                                <div className="flex flex-col mt-2">
+                                    <h2 className="sm:text-2xl text-xl font-semibold">моя роль</h2>
+                                    <p className="sm:text-lg text-base">{myRole}</p>
+                                </div>
+                                <div className="flex flex-col mt-2">
+                                    <h2 className="sm:text-2xl text-xl font-semibold">таймлайн</h2>
+                                    <p className="sm:text-lg text-base">{timeline}</p>
                                 </div>
                             </div>
                             <div className="w-auto h-0.5 bg-accent rounded-lg lg:hidden block my-2" />

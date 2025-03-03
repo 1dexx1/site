@@ -51,7 +51,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                   className="w-7 h-7 rounded-lg" // Добавил rounded-lg для скругления углов
                />   
               }
-              delay={0.9}
+              delay={0.6}
             />
             <SocialIcon
              url="https://boosty.to/1dexx1"
@@ -62,7 +62,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                   className="w-7 h-7 rounded-lg" // Добавил rounded-lg для скругления углов
                />
                }
-             delay={1.0}
+             delay={0.9}
              />
             <SocialIcon
              url="https://steamcommunity.com/id/1dexx1/"
@@ -73,7 +73,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                   className="w-7 h-7 rounded-lg" // Добавил rounded-lg для скругления углов
                />
                }
-             delay={1.0}
+             delay={1.2}
              />
           </ul>
         </motion.div>

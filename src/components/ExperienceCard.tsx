@@ -34,9 +34,9 @@ export default function ExperienceCard({ url, title, fullDescription, cardDescri
                         </p>
                         <div className="flex row gap-4 mt-2">
                             {url &&
-                                <LinkButton label="Visit Website" link={url} width="w-1/2" />
+                                <LinkButton label="перейти на сайт" link={url} width="w-1/2" />
                             }
-                            <Button label="Посмотреть больше" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
+                            <Button label="посмотреть больше" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
                         </div>
                     </div>
                     <Modal open={modalOpen} setOpen={setModalOpen}>

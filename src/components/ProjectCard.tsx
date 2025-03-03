@@ -28,7 +28,7 @@ export default function ProjectCard({ url, title, fullDescription, cardDescripti
           </p>
           <div className="flex flex-row gap-2 w-full mt-3">
             {url &&
-              <LinkButton label="Visit Website" link={url} width="w-1/2" />
+              <LinkButton label="перейти на сайт" link={url} width="w-1/2" />
             }
             <Button label="View More" onClick={() => setModalOpen(true)} width={`${url ? 'w-1/2' : 'w-full'}`} />
           </div>

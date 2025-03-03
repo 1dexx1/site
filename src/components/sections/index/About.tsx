@@ -15,7 +15,19 @@ export default function About() {
 
   let druzya: Tech[] = [
     { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
-    { title: "gtgaster", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/995011306597925055/6820ead54d18dc1ff03bd64915436df6.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
+    { title: "Nelsoni", icon: <img alt="" draggable={false} className="h-6" src="https://cdn.discordapp.com/avatars/802521064059305984/6cdece1f64c9e0946e7b81f4e14b5851.webp?size=1024" />, link: "" },
   ]
   
   const [presence, setPresence] = useState<Presence | null>(null);

@@ -7,6 +7,7 @@ import Experience from "@/components/sections/index/Experience";
 import Projects from "@/components/sections/index/Projects";
 import Footer from "@/components/sections/index/Footer";
 import { GridPattern } from "@/components/GridPattern";
+import KurwaCard from '@/components/sections/index/kurwa';
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
         <About />
         <Experience />
         <Projects />
+        <KurwaCard />
         <Footer />
       </main>
     </>

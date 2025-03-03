@@ -30,7 +30,7 @@ export default function Experience() {
                             "https://r2.e-z.host/e7a4ea07-ae15-4aaa-9512-6d3ff6fcbeb4/nda7ukvn79m0q4q.png"
                         ]}
                         myRole="бета тестер"
-                        timeline="2022 - ???"
+                        timeline="2023 - ???"
                         delay={0.1}
                         gradient="bg-gradient-to-br"
                     />
